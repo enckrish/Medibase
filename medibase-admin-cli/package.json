@@ -1,0 +1,36 @@
+{
+  "name": "medibase-admin-cli",
+  "version": "1.0.0",
+  "description": "CLI for running admin tasks for the medibasevm-based blockchain",
+  "main": "src/index.js",
+  "bin": {
+    "medibase-admin-cli": "bin/medibase-admin-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "medibase",
+    "medibasevm",
+    "avalanche"
+  ],
+  "author": "Krishnendu Sengupta",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "arg": "^5.0.1",
+    "axios": "^0.21.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "follow-redirects": "^1.14.3",
+    "readline-sync": "^1.4.10",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "@types/follow-redirects": "^1.13.1"
+  }
+}
