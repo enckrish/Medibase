@@ -13,7 +13,7 @@ The argument is the path to the VM and should be inside avalanchego's plugins di
 
 For the next steps, follow the steps at [Create a Custom Blockchain](https://docs.avax.network/build/tutorials/platform/create-custom-blockchain). To be part of the fee distribution, you need to call the `addValidator` API. For more on supported APIs, see below.
 
-MedibaseVM works along the `medibase-admin-cli`. For more info on setting it up, see [here](https://www.). 
+MedibaseVM works along the `medibase-admin-cli`. For more info on setting it up, see [here](https://github.com/encKrish/Medibase/blob/master/medibase-admin-cli/README.md). 
 
 ## API
 -----
