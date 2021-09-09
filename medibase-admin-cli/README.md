@@ -11,6 +11,7 @@ This acts as a interface between the smart contract and the MedibaseVM. It perfo
 First we will create a global symlink for faster access
 ```
 cd medibase-admin-cli
+npm install
 npm link
 ```
 Then we can run the CLI by using:
