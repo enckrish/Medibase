@@ -3,7 +3,6 @@
 This is a Virtual Machine based on the TimestampVM example from Avalanche docs, see: [Create a Virtual Machine](https://docs.avax.network/build/tutorials/platform/create-a-virtual-machine-vm) with added fee distribution to validators on the validating subnet. 
 
 ## How to get started
--------------
 To build the VM, run the following commands:
 ```
 cd medibasevm
@@ -16,7 +15,6 @@ For the next steps, follow the steps at [Create a Custom Blockchain](https://doc
 MedibaseVM works along the `medibase-admin-cli`. For more info on setting it up, see [here](https://github.com/encKrish/Medibase/blob/master/medibase-admin-cli/README.md). 
 
 ## API
------
 Most APIs are same as TimestampVM. The ones new, or modified are listed below:
 ### medibasevm.proposeBlock
 This method is used to propose a block, as the name suggests.
@@ -39,7 +37,6 @@ This method is used to propose a block, as the name suggests.
 `payID` can be used to filter out desired block after it has been accepted.
 
 ### medibasevm.addValidator
-----
 Calling this registers the node for reward distributions. This method should be called after a node has become a part of the validating subnet.
 ```
 {
@@ -58,7 +55,6 @@ Calling this registers the node for reward distributions. This method should be 
 `payAddr` is the C-Chain address where the rewards should be sent.
 
 ### medibasevm.setAdminIP
-----
 Used to change the IP to access `medibase-admin-cli`. The CLI in this repo listens on `128.0.0.1:3000`, so there is no need to call this.
 ```
 {
@@ -74,7 +70,6 @@ Used to change the IP to access `medibase-admin-cli`. The CLI in this repo liste
 Sets `Admin_IP` to `ip:port`.
 
 ## Steps to get PayID using Remix
-----
 For the following steps, make sure to select `Injected Web3` as provider and switching network to `Fuji C-Chain` in Metamask.
 1. Paste the contract code in this repo in `Remix`.
 2. Load contract from `0x959aF3BC31057BC0061e42F1d9cD8690246c1894`
