@@ -55,14 +55,14 @@ Calling this registers the node for reward distributions. This method should be 
 `payAddr` is the C-Chain address where the rewards should be sent.
 
 ### medibasevm.setAdminIP
-Used to change the IP to access `medibase-admin-cli`. The CLI in this repo listens on `128.0.0.1:3000`, so there is no need to call this.
+Used to change the IP to access `medibase-admin-cli`. The CLI in this repo listens on `128.0.0.1:3001`, so there is no need to call this if admin's public IP is not set explicitly.
 ```
 {
     "jsonrpc": "2.0",
     "method": "medibasevm.setAdminIP",
     "params":{
         "ip":"128.0.0.1",
-        "port": "3000"
+        "port": "3001"
     },
     "id": 1
 }
