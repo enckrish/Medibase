@@ -9,6 +9,8 @@ There are 3 parts to this project:
 2. A admin CLI for connecting the VM to the smart contract.
 3. The VM itself.
 
+_Note: `avalanchego` should be running alongside for proper execution._
+
 The READMEs to each of the components contain more info alongside the steps to run/use them.
 
 
