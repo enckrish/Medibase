@@ -21,14 +21,14 @@
   "author": "Krishnendu Sengupta",
   "license": "ISC",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.5.0",
+    "@truffle/hdwallet-provider": "^1.6.0",
     "arg": "^5.0.1",
     "axios": "^0.21.3",
     "esm": "^3.2.25",
     "express": "^4.17.1",
-    "follow-redirects": "^1.14.3",
+    "follow-redirects": "^1.14.8",
     "readline-sync": "^1.4.10",
-    "web3": "^1.5.2"
+    "web3": "^1.7.5"
   },
   "devDependencies": {
     "@types/follow-redirects": "^1.13.1"
