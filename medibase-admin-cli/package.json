@@ -23,7 +23,7 @@
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.5.0",
     "arg": "^5.0.1",
-    "axios": "^0.21.3",
+    "axios": "^1.6.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "follow-redirects": "^1.14.3",
